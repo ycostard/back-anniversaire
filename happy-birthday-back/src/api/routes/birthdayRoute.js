@@ -3,5 +3,5 @@ module.exports = (server) => {
 
     server
         .get("/getBirthday", birthdayController.getTodaysBirthday)
-        // .get("/sendBirthdayEmail", birthdayController.sendBirthdayEmail);
+        .get("/sendBirthdayEmail", birthdayController.sendBirthdayEmail);
 }
